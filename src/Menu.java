@@ -4,6 +4,10 @@ public class Menu {
     ArrayList<Food> foods = new ArrayList<>();
     int foodItem;
 
+    public Menu(ArrayList<Food> foods, int foodItem) {
+        this.foods = foods;
+        this.foodItem = foodItem;
+    }
 
 
     public void printMenu() {

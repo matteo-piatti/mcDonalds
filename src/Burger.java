@@ -1,7 +1,10 @@
 public class Burger extends Food {
-    String[][] burgerList = {
-            {"Big Mac", "Filet-O-Fish", "Cheeseburger", "Hamburger"}
-    };
+    public enum burgerList {
+        "Big Mac",
+        "Filet-O-Fish",
+        "Cheeseburger",
+        "Hamburger"
+    }
 
 
 
